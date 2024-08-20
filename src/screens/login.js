@@ -89,7 +89,7 @@ const Login = () => {
               margin="normal"
               required
               fullWidth
-              id="emails"
+              id="email"
               label="Email Address"
               {...register("email", {
                 required: "Email is required",
@@ -135,7 +135,7 @@ const Login = () => {
               variant="contained"
               sx={{ mt: 3, mb: 2 }}
             >
-              Sign In
+              SignIn
             </Button>
           </form>
         </Box>
