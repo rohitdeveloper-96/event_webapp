@@ -77,7 +77,7 @@ const SignUp = () => {
               onClick={redirectToLogin}
             >
               {" "}
-              Sign up{" "}
+              Sign in{" "}
             </span>
           </Typography>
           <Box sx={{ mt: 1 }}>

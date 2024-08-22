@@ -1,6 +1,6 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import { useEffect, useState } from "react";
-import Header from "../components/header";
+import Header from "../components/Header";
 import '../assets/css/eventDetailsPage.css';
 import { CircularProgress, Typography } from "@mui/material";
 import { useDispatch, useSelector } from "react-redux";
