@@ -11,7 +11,6 @@ export const getAdminUserList = (dispatch) => {
 
 export const postUsers = async(data) => {
     const {username,email,password} = data;
-    console.log(username)
     await fetch("http://localhost:8080/adminList", {
 
         // Adding method type
